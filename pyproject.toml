@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yolov3"
+version = "0.1.0"
+description = ""
+authors = ["guilherme <guilherme.rezende@redacaonline.com.br>"]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+opencv-python = "^4.8.1"
+cvlib = "^0.2.7"
+fastapi = "^0.103.2"
+python-multipart = "^0.0.6"
+uvicorn = "^0.23.2"
+tensorflow = "^2.14.0"
+nest-asyncio = "^1.5.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
